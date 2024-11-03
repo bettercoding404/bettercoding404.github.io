@@ -144,6 +144,5 @@ func main() {
 * [Go 官方文档 - os.Getwd](https://pkg.go.dev/os#Getwd)
 * [Go 官方文档 - os.Executable](https://pkg.go.dev/os#Executable)
 * [Go 官方文档 - path/filepath](https://pkg.go.dev/path/filepath)
-* [Go by Example - Working Directory](https://gobyexample.com/working-directory)
   
 
