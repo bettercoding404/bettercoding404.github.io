@@ -28,6 +28,7 @@ github_username:  bettercoding404
 permalink: /:title
 # Build settings
 theme: minima
+google_analytics: G-FB1SZ78W8Y
 plugins:
   - jekyll-feed
   - jekyll-sitemap
