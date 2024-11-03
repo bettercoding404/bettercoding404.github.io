@@ -99,7 +99,7 @@ func main() {
 
 ```
 
-可以使用 ioutil.ReadFile 读取文件内容，然后解析 JSON：
+可以使用 os.ReadFile 读取文件内容，然后解析 JSON：
 
 ```go
 package main
