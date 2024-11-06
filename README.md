@@ -11,3 +11,6 @@
 
 ## 算法
 - [最短路径算法的Golang实现](https://bettercoding404.github.io/golang-dijkstra)
+- [Golang实现快速排序](https://bettercoding404.github.io/golang-quick-sort)
+- [Golang 获取当前工作目录和执行目录](https://bettercoding404.github.io/golang-exec-path-and-working-dir)
+- [Golang 读取和写入Json](https://bettercoding404.github.io/golang-read-write-json)
