@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python使用os.walk递归读取文件和目录"
-description: "本文详细"
+description: "本文详细介绍了如何使用 Python 的递归与 os.walk 轻松读取目录树，并附上一些实际应用的示例。"
 date:   2024-11-08 00:00:00 +0000
 categories: [Python，os.walk]
 ---
