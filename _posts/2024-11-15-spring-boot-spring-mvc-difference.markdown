@@ -32,7 +32,7 @@ Spring MVC是Spring框架的一个模块，全称为Spring Model-View-Controller
 
 ## 2. 什么是Spring Boot？
 
-Spring Boot是由Pivotal团队开发的一个基于Spring的项目，用于简化Spring应用程序的开发。它的设计理念是“约定优于配置”（Convention over Configuration），通过自动配置和内置的Web服务器（如Tomcat），极大地简化了Spring应用的启动过程。
+Spring Boot是由一个基于Spring的开源项目，用于简化Spring应用程序的开发。它的设计理念是“约定优于配置”（Convention over Configuration），通过自动配置和内置的Web服务器（如Tomcat），极大地简化了Spring应用的启动过程。
 
 Spring Boot通过“starter dependencies”（启动器依赖）和自动配置，帮助开发者在不进行复杂配置的情况下快速搭建应用，并且可以独立运行而无需部署到外部容器中。
 
