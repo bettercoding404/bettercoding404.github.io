@@ -3,7 +3,8 @@ layout: post
 title:  "使用 Golang 实现有向图的最短路径算法(Dijkstra)"
 description: "本文介绍了如何使用 Golang 实现 Dijkstra 算法，用于计算有向图中的最短路径。并提供了完整的示例代码和参考资料。"
 date:   2024-11-02 00:00:00 +0000
-categories: Golang 算法
+last_modified_at: 2024-11-22 00:00:00 +0000
+categories: [Golang, Algorithm]
 ---
 ## 基础知识概述
    在开始编码之前，我们需要理解一些基础的概念：

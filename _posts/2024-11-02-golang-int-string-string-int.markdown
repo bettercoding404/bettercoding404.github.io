@@ -3,6 +3,7 @@ layout: post
 title:  "使用 Go 实现整数(int)和字符串(string)的相互转换"
 description: "本文介绍了如何使用 Go 实现整数(int)和字符串(string)的相互转换。并提供了详细的代码示例。"
 date:   2024-11-02 03:00:00 +0000
+last_modified_at: 2024-11-22 03:00:00 +0000
 categories: [Golang, int, string]
 ---
 
@@ -10,7 +11,7 @@ categories: [Golang, int, string]
 
 ## 整数转字符串
 ### 使用 strconv.Itoa()
-   strconv 包是 Go 标准库中专门用于字符串和基础数据类型之间转换的库。strconv.Itoa() 函数可以快速将整数转换为字符串。
+   strconv 包是 Go 标准库中专门用于字符串和基础数据类型之间转换的库。strconv.Itoa() 函数方便快速地将整数转换为字符串。
 
 ```go
 import "strconv"

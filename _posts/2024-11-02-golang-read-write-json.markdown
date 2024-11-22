@@ -3,6 +3,7 @@ layout: post
 title:  "使用Golang读取和写入 Json：详解与示例"
 description: "本文介绍了如何使用 Golang 读取和写入 Json 数据，包括结构体到 Json 字符串、Json 字符串到结构体、Json 文件到结构体、结构体到 Json 文件等操作。并提供了完整的示例代码和参考资料。"
 date:   2024-11-02 03:00:00 +0000
+last_modified_at: 2024-11-22 03:00:00 +0000
 categories: [Golang, Json]
 ---
 在现代应用开发中，JSON（JavaScript Object Notation）已经成为一种主流的数据交换格式。它结构清晰，易于读取和解析，广泛用于 Web 开发、API 设计、配置文件等场景。Go 语言在处理 JSON 数据方面提供了强大的内置支持，让我们能够快速、便捷地进行 JSON 数据的读写操作。本篇博客将详细介绍如何在 Go 中读取和写入 JSON 数据，并配合代码示例帮助您深入理解。

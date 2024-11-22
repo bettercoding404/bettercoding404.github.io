@@ -3,7 +3,8 @@ layout: post
 title:  "Golang 获取当前工作目录和执行目录"
 description: "本文介绍了如何使用 Golang 获取当前工作目录和执行目录，并提供了完整的示例代码和参考资料。"
 date:   2024-11-02 01:00:00 +0000
-categories: Golang
+last_modified_at: 2024-11-22 01:00:00 +0000
+categories: [Golang]
 ---
 在 Golang 中获取程序的“当前工作目录”（Current Working Directory, CWD）和“执行目录”（Executable Directory, ED）是开发中常见的需求。特别是在需要加载配置文件、资源文件或进行文件路径操作时，明确路径是至关重要的。本篇博客将深入探讨如何使用 Go 标准库来获取这些目录信息，并讲解两者的区别和使用场景。
 
