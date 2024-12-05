@@ -6,7 +6,6 @@ date: 2024-11-15
 categories: [Java, Spring, Spring MVC, Spring Boot, Web开发]
 ---
 
-# Spring MVC 和 Spring Boot 的区别详解
 
 Spring框架在Java应用开发中占据着重要地位，尤其是在Web应用和企业级应用中。Spring生态系统中，Spring MVC和Spring Boot都是开发人员常用的技术，但它们在设计理念、使用方式以及应用场景上存在显著差异。本文将详细分析Spring MVC和Spring Boot的区别，帮助你在项目中选择合适的框架。
 

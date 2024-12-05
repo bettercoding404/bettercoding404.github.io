@@ -7,8 +7,6 @@ categories: [Python，os.walk]
 ---
 
 
-# 深入理解 Golang Channel 实现原理
-
 在 Go 语言（Golang）中，`channel` 是一类非常重要的数据结构，它在 Goroutine 之间的通信中起到了关键作用，帮助程序员实现并发控制。`channel` 通过阻塞的方式在 Goroutine 间同步数据，让并发编程变得简单而直观。然而，Golang 的 channel 是如何在内部实现的呢？本文将深入探讨 channel 的底层原理，帮助你更好地理解和使用这一强大的特性。
 
 ## 一、channel 的基本概念
