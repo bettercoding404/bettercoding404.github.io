@@ -36,7 +36,7 @@ layout: base
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 <div>
-    <h2>相关文章</h2>
+    <h2>最新文章</h2>
     <ul>
         {% assign recent_posts = site.related_posts | sort: "date" | reverse %}
         {% for post in recent_posts limit: 10 %}

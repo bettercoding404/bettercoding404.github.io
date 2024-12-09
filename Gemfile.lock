@@ -177,6 +177,7 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.4)
   jekyll-feed (~> 0.12)
+  jekyll-seo-tag
   jekyll-sitemap
   jekyll-tagging-related_posts
   minima (~> 2.5)
