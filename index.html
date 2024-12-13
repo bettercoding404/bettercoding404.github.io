@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<div class="home">
+    <ul class="post-list">
+        {% for post in paginator.posts %}
+        <li>
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <span class="post-meta">
+          发表日期: <time>{{ post.date | date: "%Y-%m-%d" }}</time> · 标签: {% for tag in post.tags %}{{ tag }} {% endfor %}
+        </span>
+            <div class="post-excerpt">{{ post.excerpt }}</div>
+        </li>
+        {% endfor %}
+        {% if paginator.total_pages > 1 %}
+        <div class="pagination">
+            {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+            {% else %}
+            <span>&laquo; Prev</span>
+            {% endif %}
+            <small>｜</small>
+
+            {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+            {{ page }}
+            {% elsif page == 1 %}
+            <a href="{{ '/' | relative_url }}">{{ page }}</a>
+            {% else %}
+            <a href="/page{{ page }}">{{ page }}</a>
+            {% endif %}
+            <small>｜</small>
+            {% endfor %}
+
+            {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+            {% else %}
+            <span>Next &raquo;</span>
+            {% endif %}
+
+            <!-- <span class="page_number ">
+                Page: {{ paginator.page }} of {{ paginator.total_pages }}
+            </span> -->
+        </div>
+        {% endif %}
+    </ul>
+    <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">通过RSS订阅</a></p>
+</div>
+<!-- HTML elements for search-->
+<div id="search-container" style="float:right;position: fixed;right:10px; bottom:10px; z-index:999999;background:#eee;padding:10px 10px 0px 10px;">
+    <input type="text" id="search-input" placeholder="search..." style="border:2px solid;border-radius:25px;padding-left:10px !important;" >
+    <ul id="results-container" style="max-width:300px;"></ul>
+</div>

@@ -9,12 +9,15 @@ permalink: /:title
 # Build settings
 theme: minima
 google_analytics: G-FB1SZ78W8Y
+pagination:
+  enabled: true
 paginate: 20  # Number of posts per page
-paginate_path: "/page:num"  # URL path for paginated pages
+paginate_path: "page:num"  # URL path for paginated pages
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
