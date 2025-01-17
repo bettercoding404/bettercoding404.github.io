@@ -30,7 +30,7 @@ yarn add vuedraggable
   <div>
     <draggable v-model="list" @end="onEnd">
       <div v-for="element in list" :key="element.id">
-        {{ element.name }}
+        { { element.name }}
       </div>
     </draggable>
   </div>
@@ -92,7 +92,7 @@ div {
 ```vue
 <draggable v-model="list" handle=".handle">
   <div v-for="element in list" :key="element.id">
-    <span class="handle">☰</span> {{ element.name }}
+    <span class="handle">☰</span> { { element.name }}
   </div>
 </draggable>
 ```

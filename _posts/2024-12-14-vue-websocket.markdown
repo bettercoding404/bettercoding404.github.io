@@ -46,7 +46,7 @@ vue create vue-websocket-demo
   <div>
     <h2>Chat Room</h2>
     <div v-for="(message, index) in messages" :key="index">
-      <p>{{ message }}</p>
+      <p>{ { message }}</p>
     </div>
     <input v-model="newMessage" type="text" placeholder="Type your message" />
     <button @click="sendMessage">Send</button>

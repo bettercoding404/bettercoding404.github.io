@@ -30,9 +30,9 @@ npm install vue-property-decorator
 ```typescript
 <template>
   <div>
-    <h1>{{ message }}</h1>
+    <h1>{ { message }}</h1>
     <button @click="increment">Increment</button>
-    <p>Count: {{ count }}</p>
+    <p>Count: { { count }}</p>
   </div>
 </template>
 

@@ -20,8 +20,8 @@ tags: [vue]
 ```vue
 <template>
   <div>
-    <p>原价: {{ price }}</p>
-    <p>折扣价: {{ discountedPrice }}</p>
+    <p>原价: { { price }}</p>
+    <p>折扣价: { { discountedPrice }}</p>
   </div>
 </template>
 
@@ -60,7 +60,7 @@ export default {
 <template>
   <div>
     <input v-model="message">
-    <p>反转字母: {{ reversedMessage }}</p>
+    <p>反转字母: { { reversedMessage }}</p>
   </div>
 </template>
 

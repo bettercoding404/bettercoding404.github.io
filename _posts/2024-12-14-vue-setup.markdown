@@ -30,7 +30,7 @@ tags: [vue]
 ```vue
 <template>
   <div>
-    <p>{{ count }}</p>
+    <p>{ { count }}</p>
     <button @click="increment">增加</button>
   </div>
 </template>
@@ -69,7 +69,7 @@ Vue 3 提供了 `ref` 和 `reactive` 两个主要的响应式 API。
 ```vue
 <template>
   <div>
-    <p>{{ userInfo.name }}</p>
+    <p>{ { userInfo.name }}</p>
     <button @click="updateName">更新名字</button>
   </div>
 </template>

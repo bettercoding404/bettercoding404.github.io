@@ -106,7 +106,7 @@ export default {
 ```vue
 <template>
   <BaseComponent v-slot:default="{ user }">
-    <p>User Name: {{ user.name }}</p>
+    <p>User Name: { { user.name }}</p>
   </BaseComponent>
 </template>
 ```

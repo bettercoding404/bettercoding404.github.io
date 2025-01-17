@@ -37,8 +37,8 @@ const data = [
     </thead>
     <tbody>
       <tr v-for="item in data" :key="item.id">
-        <td>{{ item.name }}</td>
-        <td>{{ item.age }}</td>
+        <td>{ { item.name }}</td>
+        <td>{ { item.age }}</td>
       </tr>
     </tbody>
   </table>
@@ -88,8 +88,8 @@ methods: {
 <input v-model="filterText" placeholder="请输入姓名进行过滤" />
 
 <tr v-for="item in filteredData" :key="item.id">
-  <td>{{ item.name }}</td>
-  <td>{{ item.age }}</td>
+  <td>{ { item.name }}</td>
+  <td>{ { item.age }}</td>
 </tr>
 ```
 

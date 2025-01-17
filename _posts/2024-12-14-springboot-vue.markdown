@@ -71,7 +71,7 @@ vue create my-vue-app
   <div>
     <h1>Vue 前端</h1>
     <button @click="fetchData">获取数据</button>
-    <p>{{ message }}</p>
+    <p>{ { message }}</p>
   </div>
 </template>
 
