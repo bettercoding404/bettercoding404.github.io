@@ -6,7 +6,6 @@ categories: ["python"]
 last_modified_at: 2025-04-05
 ---
 
-# 如何在 Mac 上切换 Python 版本
 
 ## 简介
 在 Mac 系统中，切换 Python 版本是一项常见的操作，尤其是当你在不同项目中需要使用不同 Python 版本时。Python 有多个主要版本，如 Python 2 和 Python 3，并且每个主要版本又有不同的小版本。能够熟练切换版本可以确保你的项目在合适的 Python 环境中运行，避免因版本不兼容导致的各种问题。本文将详细介绍在 Mac 上切换 Python 版本的相关知识和操作方法。

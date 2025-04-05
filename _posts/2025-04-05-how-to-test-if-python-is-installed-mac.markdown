@@ -6,7 +6,6 @@ categories: ["python"]
 last_modified_at: 2025-04-05
 ---
 
-# 如何在 Mac 上测试 Python 是否安装
 
 ## 简介
 在 Mac 系统中，Python 是一种广泛使用的编程语言。在进行 Python 开发或运行基于 Python 的程序之前，确认 Python 是否已经成功安装是很重要的。本文将详细介绍在 Mac 上测试 Python 是否安装的相关知识，包括基础概念、具体使用方法、常见实践以及最佳实践等内容，帮助读者快速掌握这一技能。

@@ -3,11 +3,10 @@ title:  C语言实现Bellman-Ford算法：深入解析与实践
 description:  简介Bellman-Ford算法是一种用于在带权有向图中寻找单源最短路径的经典算法。与Dijkstra算法不同，Bellman-Ford算法能够处理图中存在负权边的情况，这使得它在许多实际应用中具有重要价值，比如在经济模型、网络流等领域。本文将详细介绍如何使用C语言实现Bellman-Ford算法，帮助读者理解其原理并掌握实际应用。
 date: 2025-01-16
 categories: [c]
-last_modified_at: 2025-01-16 
+last_modified_at: 2025-04-05 
 layout: post
 ---
 
-# C语言实现Bellman-Ford算法：深入解析与实践
 
 ## 简介
 Bellman-Ford算法是一种用于在带权有向图中寻找单源最短路径的经典算法。与Dijkstra算法不同，Bellman-Ford算法能够处理图中存在负权边的情况，这使得它在许多实际应用中具有重要价值，比如在经济模型、网络流等领域。本文将详细介绍如何使用C语言实现Bellman-Ford算法，帮助读者理解其原理并掌握实际应用。

@@ -6,7 +6,6 @@ categories: ["python"]
 last_modified_at: 2025-04-05
 ---
 
-# Python中`import random`的全面解析
 
 ## 简介
 在Python编程中，`import random`是一个非常实用的工具，它允许我们生成各种伪随机数，用于模拟、游戏开发、数据采样等众多场景。本文将深入探讨`import random`的基础概念、使用方法、常见实践以及最佳实践，帮助读者更好地掌握这一强大的功能。

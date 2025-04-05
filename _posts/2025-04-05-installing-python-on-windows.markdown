@@ -6,7 +6,6 @@ categories: ["python"]
 last_modified_at: 2025-04-05
 ---
 
-# 在 Windows 上安装 Python
 
 ## 简介
 Python 是一种广泛使用的高级编程语言，在数据科学、Web 开发、自动化脚本等众多领域都有出色的表现。在 Windows 操作系统上安装 Python 是踏上 Python 编程之旅的第一步。本博客将详细介绍在 Windows 上安装 Python 的基础概念、具体使用方法、常见实践以及最佳实践，帮助读者顺利开启 Python 编程之路。

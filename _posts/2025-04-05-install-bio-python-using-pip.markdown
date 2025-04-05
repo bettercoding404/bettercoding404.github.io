@@ -6,7 +6,6 @@ categories: ["python"]
 last_modified_at: 2025-04-05
 ---
 
-# 利用pip安装BioPython：从基础到实践
 
 ## 简介
 在生物信息学领域，BioPython是一个强大且广泛使用的Python库，它提供了丰富的工具和功能来处理各种生物数据，如序列分析、结构解析等。而`pip`则是Python的标准包管理工具，通过它可以轻松地安装、升级和卸载Python包。本文将详细介绍如何使用`pip`来安装BioPython，并探讨相关的使用方法、常见实践及最佳实践。

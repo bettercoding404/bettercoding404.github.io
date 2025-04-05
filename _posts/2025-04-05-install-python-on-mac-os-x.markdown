@@ -6,7 +6,6 @@ categories: ["python"]
 last_modified_at: 2025-04-05
 ---
 
-# 在 Mac OS X 上安装 Python
 
 ## 简介
 Python 是一种广泛应用于软件开发、数据科学、自动化脚本等众多领域的编程语言。在 Mac OS X 系统上安装 Python 是许多开发者和爱好者迈向编程之旅的重要一步。本文将详细介绍在 Mac OS X 上安装 Python 的相关知识，包括基础概念、安装方法、常见实践以及最佳实践，帮助读者轻松掌握并高效使用 Python 开发环境。

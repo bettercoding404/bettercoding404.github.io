@@ -6,7 +6,6 @@ categories: ["python"]
 last_modified_at: 2025-04-05
 ---
 
-# 深入探索：在Python中安装OpenCV并集成CUDA加速
 
 ## 简介
 OpenCV（Open Source Computer Vision Library）是一个广泛用于计算机视觉任务的开源库，它提供了各种图像处理和计算机视觉算法。CUDA（Compute Unified Device Architecture）则是NVIDIA推出的并行计算平台和编程模型，能够利用GPU的并行处理能力加速计算。在Python中安装OpenCV并结合CUDA使用，可以显著提升计算密集型视觉任务的处理速度。本文将详细介绍如何安装配置OpenCV Python以及集成CUDA加速，帮助读者更好地利用这些强大的工具进行计算机视觉开发。

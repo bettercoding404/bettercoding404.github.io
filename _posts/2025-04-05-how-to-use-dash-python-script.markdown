@@ -6,7 +6,6 @@ categories: ["python"]
 last_modified_at: 2025-04-05
 ---
 
-# 深入探索 Dash Python 脚本的使用
 
 ## 简介
 Dash 是一个用于构建 Web 应用程序的 Python 框架，它允许开发者使用纯 Python 代码创建交互式的可视化界面，而无需编写大量的 HTML、CSS 和 JavaScript。这使得数据科学家和 Python 开发者能够轻松地将他们的数据分析成果以直观的 Web 应用形式展示出来。本文将详细介绍如何使用 Dash Python 脚本，涵盖基础概念、使用方法、常见实践以及最佳实践，帮助你快速上手并高效运用这一强大工具。

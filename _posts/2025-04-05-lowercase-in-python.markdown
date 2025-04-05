@@ -6,7 +6,6 @@ categories: ["python"]
 last_modified_at: 2025-04-05
 ---
 
-# Python中的小写转换：lowercase in Python
 
 ## 简介
 在Python编程中，字符串处理是一项非常常见的任务。其中，将字符串转换为小写形式是一个基本且实用的操作。了解如何在Python中有效地进行小写转换，对于文本数据的清洗、比较和规范化处理都有着重要的意义。本文将深入探讨Python中关于小写转换（lowercase）的相关知识，包括基础概念、使用方法、常见实践以及最佳实践。

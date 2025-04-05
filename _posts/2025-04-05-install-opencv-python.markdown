@@ -6,7 +6,6 @@ categories: ["python"]
 last_modified_at: 2025-04-05
 ---
 
-# 深入理解并安装 OpenCV for Python
 
 ## 简介
 OpenCV（Open Source Computer Vision Library）是一个用于计算机视觉任务的强大开源库。它提供了丰富的函数和工具，可用于图像和视频处理、对象检测、人脸识别等众多领域。在Python中使用OpenCV，可以借助Python简洁的语法和庞大的生态系统，快速实现各种计算机视觉应用。本文将详细介绍如何在Python环境中安装OpenCV，并阐述其使用方法、常见实践及最佳实践。

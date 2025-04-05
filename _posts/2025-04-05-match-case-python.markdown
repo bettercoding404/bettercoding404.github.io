@@ -6,7 +6,6 @@ categories: ["python"]
 last_modified_at: 2025-04-05
 ---
 
-# Python 中的 match case：强大的模式匹配工具
 
 ## 简介
 在 Python 3.10 中引入的 `match case` 语句，为开发者带来了一种全新的、更简洁且强大的方式来进行模式匹配。它类似于其他编程语言中的 `switch` 语句，但在功能上更加灵活和强大。本文将深入探讨 `match case` 的基础概念、使用方法、常见实践以及最佳实践，帮助读者全面掌握这一特性。

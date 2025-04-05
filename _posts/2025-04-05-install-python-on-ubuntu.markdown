@@ -6,7 +6,6 @@ categories: ["python"]
 last_modified_at: 2025-04-05
 ---
 
-# 在 Ubuntu 上安装 Python
 
 ## 简介
 Python 是一种广泛使用的高级编程语言，以其简洁的语法和强大的功能而闻名。在 Ubuntu 系统上安装 Python 是许多开发者和数据科学家的基础需求。本文将详细介绍在 Ubuntu 上安装 Python 的相关知识，涵盖基础概念、使用方法、常见实践以及最佳实践，帮助读者快速上手并高效运用。

@@ -6,7 +6,6 @@ categories: ["python"]
 last_modified_at: 2025-04-05
 ---
 
-# 如何卸载 Python
 
 ## 简介
 在某些情况下，我们可能需要卸载 Python，比如想要更换 Python 版本，或者清理系统中不再使用的 Python 环境。然而，不同操作系统下卸载 Python 的方式有所不同，并且如果卸载不当，可能会导致系统或其他依赖 Python 的程序出现问题。本文将详细介绍在不同操作系统上卸载 Python 的方法、常见实践以及最佳实践。

@@ -6,7 +6,6 @@ categories: ["python"]
 last_modified_at: 2025-04-05
 ---
 
-# 深入理解Python中读取JSON文件
 
 ## 简介
 在当今的数据驱动时代，JSON（JavaScript Object Notation）作为一种轻量级的数据交换格式，被广泛应用于各种编程语言和系统之间的数据传输与存储。Python作为一门强大的编程语言，提供了丰富的库和方法来处理JSON数据。本文将深入探讨如何在Python中读取JSON文件，涵盖基础概念、使用方法、常见实践以及最佳实践，帮助读者全面掌握这一重要技能。
