@@ -1,7 +1,6 @@
 #!/bin/zsh
 
-
-switch bettercoding404
+/usr/local/bin/switch bettercoding404
 # Get the current timestamp
 TIMESTAMP=$(date "+%Y-%m-%d %H:%M:%S")
 
@@ -12,4 +11,4 @@ git add .
 git commit -m "$COMMIT_MESSAGE"
 git push
 
-switch default
+/usr/local/bin/switch default
