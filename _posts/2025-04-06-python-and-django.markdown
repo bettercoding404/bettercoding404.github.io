@@ -222,11 +222,11 @@ STATICFILES_DIRS = [
 <head>
     <meta charset="UTF-8">
     <title>My Page</title>
-    <link rel="stylesheet" href="{% static'main.css' %}">
+    <link rel="stylesheet" href="{ static'main.css' }">
 </head>
 <body>
     <!-- 页面内容 -->
-    <script src="{% static'main.js' %}"></script>
+    <script src="{ static'main.js' }"></script>
 </body>
 </html>
 ```

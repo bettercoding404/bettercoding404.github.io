@@ -112,27 +112,10 @@ print(output)
 ### 模板继承
 创建一个基础模板 `base_template.html`：
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>{% block title %}Default Title{% endblock %}</title>
-</head>
-<body>
-    {% block content %}
-    <p>This is the base content.</p>
-    {% endblock %}
-</body>
-</html>
+
 ```
 然后创建一个子模板 `child_template.html` 继承自基础模板：
 ```html
-{% extends 'base_template.html' %}
-
-{% block title %}Child Page{% endblock %}
-
-{% block content %}
-    <p>This is the child content.</p>
-{% endblock %}
 ```
 在 Python 中渲染子模板：
 ```python
