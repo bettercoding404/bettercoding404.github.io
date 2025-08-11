@@ -4,10 +4,10 @@
 # Get the current timestamp
 TIMESTAMP=$(date "+%Y-%m-%d %H:%M:%S")
 
-COMMIT_MESSAGE="auto-commit $TIMESTAMP"
+COMMIT_MESSAGE="Add more blogs $TIMESTAMP"
 
-git config user.name "jenkins-bot"
-git config user.email "ixuhangyi@gmail.com"
+git config user.name "bettercoding404"
+git config user.email "bettercoding404"
 
 # Ensure the branch is tracking the remote
 git branch --set-upstream-to=origin/main main
@@ -16,10 +16,3 @@ git branch --set-upstream-to=origin/main main
 git add .
 git commit -m "$COMMIT_MESSAGE"
 git push
-
-npm install
-
-hugo
-
-chmod -R 777 ./public
-rsync -avz -i --exclude ".git/" --exclude ".idea/" ./public/ ubuntu@43.128.116.181:/root/data/disk/www/bettercoding404.github.io/
