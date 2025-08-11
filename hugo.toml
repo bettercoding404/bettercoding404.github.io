@@ -1,0 +1,53 @@
+baseURL = 'https://bettercoding404.github.io'
+languageCode = 'en-us'
+title = 'BetterCoding404'
+contentDir = 'content'
+defaultContentLanguage = 'en'
+enableRobotsTXT = 'true'
+[menu]
+
+
+[[menu.main]]
+identifier = "python-data-science"
+name = "Python Data Science"
+url = "/python-data-science/"
+weight = 10
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 20
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 30
+
+[module]
+proxy = "direct"
+[module.hugoVersion]
+extended = true
+min = "0.73.0"
+[[module.imports]]
+path = "github.com/google/docsy"
+disable = false
+
+[params.copyright]
+authors = "bettercoding404.github.io | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) "
+from_year = "2025"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params.ui]
+sidebar_menu_truncate=200
+navbar_logo = false
+
+[minify]
+minifyOutput = true
+
+[services]
+[services.googleAnalytics]
+id = 'G-FB1SZ78W8Y'

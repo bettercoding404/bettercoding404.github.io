@@ -1,0 +1,23 @@
+# Hugo output directory
+/public/
+
+# Temporary files
+/resources/
+hugo_stats.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Node.js dependencies (if using JavaScript)
+node_modules/
+package-lock.json
+yarn.lock
+
+*.exe
+*.out
+*.test
+.idea
